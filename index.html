@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script defer src="script.js"></script>
+    <title>Furry Fiends</title>
+    <link rel="stylesheet" href="style.css" media="screen" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lilita+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- copy, mostly controlled by JS -->
+
+    <h1 id="title">Furry Fiends</h1>
+    <h2 id="animal_info"></h2>
+    <h2 id="subhead">Click on a Furry Fiend (OK, family pet) to learn more about them!!!</h2>
+    <h3 id="instructions"></h3>
+
+      <!-- slide text  -->
+
+      <div id="slide_text">
+        <h3 class="image_slide" class="hide_element" id="sadie_img_slide"></h3>
+        <h3 class="image_slide" class="hide_element" id="manny_img_slide"></h3>
+        <h3 class="image_slide" class="hide_element" id="cloud_img_slide"></h3>
+        <h3 class="image_slide" class="hide_element" id="gidget_img_slide"></h3>
+    </div>
+
+    <!-- back button -->
+
+    <h3 id="go_back"><h3>
+
+    <!-- animal buttons -->
+
+    <div class="grid-control">
+        <div class="button_wrapper">
+            <button class="square" id="sadie_button">Sadie</button>
+        </div>
+
+        <div class="button_wrapper">
+            <button class="square" id="manny_button">Manny</button>
+        </div>
+
+        <div class="button_wrapper">
+            <button class="square" id="cloud_button">Cloud</button>
+        </div>
+
+        <div class="button_wrapper">
+            <button class="square" id="gidget_button">Gidget</button>
+        </div>
+    </div>
+
+    <!-- individual animal image and copy -->
+
+    <div class="animal_wrapper">
+        <div class="" id="animal_box">
+        </div>
+        <h4 id="ooh"></h4>
+    </div>
+
+    <!-- hearts -->
+
+    <div id="hearts_box" class="hide_hearts">
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+    </div>
+
+    <footer>
+        <p>All art, images and photos belong to me. Do not reuse without permission.</p>
+    </footer>
+
+</body>
+
+</html>
