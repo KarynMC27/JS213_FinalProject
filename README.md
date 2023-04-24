@@ -8,7 +8,7 @@ On the main page, clicking an animal image will bring up some text and a photogr
 
 You can "pet" the animal to see an animation and captions pop over the image.
 
-You can also click to see additional photographs of the selected info.
+You can also click to see additional photographs of the selected animal.
 
 I left a lot of comments/questions in script.js. 
 
