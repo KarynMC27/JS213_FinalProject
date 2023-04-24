@@ -109,13 +109,15 @@ for (let i = 0; i < buttons.length; i++) {
     )
 }
 
-// When you mouse over the pet picture, a heart animation plays. It stops when you mouse out. 
-//It might be fun to change captions at random but I did not implement that
+// When you mouse over the pet picture, a heart animation plays. It stops when you mouse out.
+//The image caption can change as well. I didn't care if the captions repeated twice in a row. 
 
 function petPet() {
     console.log(`pet`)
+    let petCaptionArray = [`Ooooh, that's the spot!`, `It's been 100 years since my last tummy rub.`, `Bouncy bouncy bouncy!`, `Toy? Toy for me?`, `The rug looks better that way.`, `Cookie now?`, `&#128150; &#128150; &#128150;`, `That poop isn't mine.`, `** happy wiggles **`, `Right there!`, `** happy thumps **`, `Scratch my ears!`, `Do I get a treat for this?`, `I didn't mean to eat your shoes.`]
+    const petCaption = petCaptionArray[Math.floor(Math.random() * petCaptionArray.length)]
     document.getElementById("hearts_box").style.display = "block"
-    pettingText.innerHTML = `Ooooh, that's the spot!`
+    pettingText.innerHTML = petCaption
 }
 
 function stopPet() {
