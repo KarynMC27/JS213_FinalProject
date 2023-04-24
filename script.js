@@ -259,7 +259,7 @@ function goHome() {
         gidgetButton.classList.remove(`hide_element`)
         sadieSlide.style.cursor = `default`
         cloudSlide.style.cursor = `default`
-        gidgetSlide.style.cursoer = `default`
+        gidgetSlide.style.cursor = `default`
         mannySlide.style.cursor = `default`
         animalImage.style.cursor = `default`
         goHomeText.style.cursor = `default`
